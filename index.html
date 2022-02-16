@@ -19,6 +19,7 @@
     <!-- bootstarp link here -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <!------------- css file add------------------------------------ -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -31,12 +32,44 @@
         <h1><b style="color:   #31A5AC;"> MY BANK</b> <i class="fa fa-money"
                 style="font-size:39px ;color:rgba(7, 177, 58, 0.89)"></i>
         </h1>
-    </header>
+    </header> <br>
 
     <!-- ---------main section here ------------>
     <main>
         <section class="container">
+            <div class="row gx-5">
+                <div class=" col-12 col-lg-8 col-md-12 ">
+                    <img class="img-fluid rounded mb-4 " src="./img/my.jpg" alt="" srcset="">
+                </div>
+                <div style="background-color: #F8F8F8;" class="col-12 col-lg-4 col-md-12  ">
+                    <div class="mt-4 p-3  ">
+                        <h4 class="text-center mb-4"><b>Income</b></h4>
+                        <h6>Income: <input class="border bg-light" type="text"></h6>
+                        <h5 class="text-center mt-4"><b>Expenses</b></h5>
+                        <h6 class="mt-3"> Food : <input class="border bg-light w-75" type="text"></h6>
+                        <h6 class="mt-3"> Rent : <input class="border bg-light w-75" type="text"></h6>
+                        <h6 class="mt-3">Clothes : <input style="width:68%;" class="border bg-light " type="text">
+                        </h6>
+                        <div class="d-flex align-items-center">
+                            <button style="background-color: #59A5FF; border: none; "
+                                class="mt-3 p-1 rounded mx-auto w-50"><span class="text-light">Calculate</span>
+                            </button>
+                        </div>
+                        <h6 class="text-center mt-4"><b>Total Expenses: </b><span>0000</span></h6>
+                        <h5 class="text-center mt-3"><b>Balance: </b> <span>0000</span></h5>
+                        <div class="mb-4 d-flex align-items-center">
+                            <h6>Save: <input style="width: 40%;" class="border bg-light" type="text"> % <button
+                                    style="background-color: #59A5FF; border: none;width: 35%; "
+                                    class="mt-3 p-1 rounded mx-auto "><span class="text-light">Save</span>
+                                </button></h6>
+                        </div>
+                        <h6 class="text-center mt-4"><b>Saving Amount: </b><span>0000</span></h6>
+                        <h6 class="text-center mt-3"><b>Remaining Balance: </b><span>0000</span></h6>
 
+
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
