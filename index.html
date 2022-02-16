@@ -50,27 +50,30 @@
                 <div id="forum-in" style="background-color: #F8F8F8;" class="col-12 col-lg-4 col-md-12 ">
                     <div class="mt-4 p-3  ">
                         <h4 class="text-center mb-4"><b>Income</b></h4>
-                        <h6>Income: <input class="border bg-light" type="text"></h6>
+                        <h6>Income: <input id="my-income" class="border bg-light" type="text"></h6>
                         <h5 class="text-center mt-4"><b>Expenses</b></h5>
-                        <h6 class="mt-3"> Food : <input class="border bg-light w-75" type="text"></h6>
-                        <h6 class="mt-3"> Rent : <input class="border bg-light w-75" type="text"></h6>
-                        <h6 class="mt-3">Clothes : <input style="width:68%;" class="border bg-light " type="text">
+                        <h6 class="mt-3"> Food : <input id="paid-food" class="border bg-light w-75" type="text"></h6>
+                        <h6 class="mt-3"> Rent : <input id="paid-rent" class="border bg-light w-75" type="text"></h6>
+                        <h6 class="mt-3">Clothes : <input id="paid-clothes" style="width:68%;" class="border bg-light "
+                                type="text">
                         </h6>
                         <div class="d-flex align-items-center">
-                            <button style="background-color: #59A5FF; border: none; "
+                            <button id="calculate-btn" style="background-color: #59A5FF; border: none; "
                                 class="mt-3 p-1 rounded mx-auto w-50"><span class="text-light">Calculate</span>
                             </button>
                         </div>
-                        <h6 class="text-center mt-4"><b>Total Expenses: </b><span>0000</span></h6>
-                        <h5 class="text-center mt-3"><b>Balance: </b> <span>0000</span></h5>
+                        <h6 class="text-center mt-4"><b>Total Expenses: </b><span id="total-expenses">0000</span></h6>
+                        <h5 class="text-center mt-3"><b>Balance: </b> <span id="have-balance">0000</span></h5>
                         <div class="mb-4 d-flex align-items-center">
-                            <h6>Save: <input style="width: 40%;" class="border bg-light" type="text"> % <button
-                                    style="background-color: #59A5FF; border: none;width: 35%; "
+                            <h6>Save: <input id="saving" style="width: 40%;" class="border bg-light" type="text"> %
+                                <button id="save-btn" style="background-color: #59A5FF; border: none;width: 35%; "
                                     class="mt-3 p-1 rounded mx-auto "><span class="text-light">Save</span>
-                                </button></h6>
+                                </button>
+                            </h6>
                         </div>
-                        <h6 class="text-center mt-4"><b>Saving Amount: </b><span>0000</span></h6>
-                        <h6 class="text-center mt-3"><b>Remaining Balance: </b><span>0000</span></h6>
+                        <h6 class="text-center mt-4"><b>Saving Amount: </b><span id="saving-amount">0000</span></h6>
+                        <h6 class="text-center mt-3"><b>Remaining Balance: </b><span id="remaining-balance">0000</span>
+                        </h6>
 
 
                     </div>
